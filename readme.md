@@ -17,9 +17,9 @@ $ npm install --save pypi-name
 ## Usage
 
 ```js
-const npmName = require('pypi-name');
+const pypiName = require('pypi-name');
 
-npmName('django-oscar').then(available => {
+pypiName('django-oscar').then(available => {
 	console.log(available);
 	//=> false
 });
