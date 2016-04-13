@@ -6,5 +6,5 @@ test('returns true when package name is available', async t => {
 });
 
 test('returns false when package name is taken', async t => {
-	t.false(await fn('django-oscar'));
+	t.false(await fn('django-oscar-paypal'));
 });
