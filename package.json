@@ -1,6 +1,6 @@
 {
   "name": "pypi-name",
-  "version": "2.1.0",
+  "version": "0.1.0",
   "description": "Check whether a package name is available on Pypi",
   "license": "MIT",
   "repository": "cage1016/npm-name",
