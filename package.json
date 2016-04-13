@@ -1,0 +1,41 @@
+{
+  "name": "pypi-name",
+  "version": "2.1.0",
+  "description": "Check whether a package name is available on Pypi",
+  "license": "MIT",
+  "repository": "cage1016/npm-name",
+  "author": {
+    "name": "Kai-Chu Chung",
+    "email": "cage.chung@gmail.com",
+    "url": "http://kaichu.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "app",
+    "npm",
+    "python",
+    "pypi",
+    "package",
+    "pkg",
+    "name",
+    "check",
+    "available",
+    "taken"
+  ],
+  "dependencies": {
+    "got": "^5.0.0",
+    "pinkie-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
